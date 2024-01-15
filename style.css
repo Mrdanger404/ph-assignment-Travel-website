@@ -15,6 +15,30 @@
 
 }
 
+.body section{
+    margin-bottom: 100px;
+}
+
+button{
+    background-color: var(--global-color);
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+
+}
+
+.global-button{
+    height: 52px;
+    width: 174px;
+    color: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
 .header{
     display: flex;
     align-items: center;
@@ -135,13 +159,10 @@
 }
 
 .findNowImg{
-    background-color: var(--global-color);
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
-    font-size: 16px;
-    font-weight: 700;
 }
 
 .findNowImg>img{
@@ -149,3 +170,45 @@
     margin-right: 10px;
 }
 /* End explore your travel */
+
+/* main start */
+
+/*start our popular tour */
+
+.popular-tour-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-tour-container>div{
+    width: 50%;
+}
+
+.popular-tour-heading{
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0 0 20px 0;
+}
+
+.popular-tour-pera, .popular-tour-list{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.popular-tour-list li{
+    margin: 20px;
+
+}
+
+.popular-tour-button{
+    margin-top: 20px;
+}
+
+.popular-tour-container> img{
+    height: 550px;
+}
+/* end our popular tour */
+
+/* main end */
