@@ -3,6 +3,10 @@
     .body{
         margin: 20px 60px;
     }
+
+    .header, .nav-img{
+        z-index: 999;
+    }
     .header img{
         height: 30px;
     }
@@ -20,7 +24,7 @@
     }
 
     .nav-item li{
-        margin-top: 10px;
+        margin: 10px 0;
     }
     .nav-bar:hover .nav-item{
         display: flex;
@@ -30,6 +34,7 @@
         padding-top: 50px;
         left: 0;
         right: 0;
+        background-color: #fff;
     }
 
     .nav-item, .explore-travel-container-form{
