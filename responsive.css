@@ -89,5 +89,12 @@
     }
     /* end popular tours */
 
+    /* start destination container */
+    .destination-country{
+        display: flex;
+        flex-direction: column;
+    }
+    /* end destination container */
+
     /* end main */
 }
