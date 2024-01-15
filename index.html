@@ -32,19 +32,31 @@
             </section>
             <!-- Navbar end -->
 
-            <section>
-                <div>
-                    <h1>Explore Your Travel</h1>
-                    <p>"Explore the extraordinary with Tajbir Travel. Where every journey becomes a celebration of wanderlust. Uncover iconic destinations and hidden gems with us. Your gateway to unforgettable adventures!"</p>
-                </div>
-
-                <div>
-                    <form>
-                        <input type="text" placeholder="Where go">
-                        <select id="option">
-                            <option value="Saturday">Saturday</option>
-                        </select>
-                    </form>
+            <section class="explore-travel-container">
+                <div class="explore-travel">
+                    <div class="explore-travel-desc">
+                        <h1>Explore Your Travel</h1>
+                        <p>"Explore the extraordinary with Tajbir Travel. Where every journey becomes a celebration of wanderlust. Uncover iconic destinations and hidden gems with us. Your gateway to unforgettable adventures!"</p>
+                    </div>
+    
+                    <div>
+                        <form class="explore-travel-container-form">
+                            <input class="explore-input" type="text" placeholder="Where go">
+                            <select class="explore-input" id="when" title="choose option">
+                                <option>When</option>
+                                <option value="saturday">Saturday</option>
+                                <option value="sunday">Sunday</option>
+                                <option value="monday">Monday</option>
+                            </select>
+                            <select class="explore-input" id="type" title="choose option">
+                                <option>Select type</option>
+                                <option value="type1">type1</option>
+                                <option value="type2">type2</option>
+                            </select>
+    
+                            <button type="submit" class="findNowImg"> <img src="./Images/Frame.svg" alt="">Find Now</button>
+                        </form>
+                    </div>
                 </div>
             </section>
         </header>

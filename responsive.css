@@ -24,7 +24,6 @@
     }
     .nav-bar:hover .nav-item{
         display: flex;
-        flex-direction: column;
         align-items: center;
         position: absolute;
         top: 20px;
@@ -32,4 +31,35 @@
         left: 0;
         right: 0;
     }
+
+    .nav-item, .explore-travel-container-form{
+        flex-direction: column;
+    }
+    /* start explore travel */
+    .explore-travel-container{
+        height: 483px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .explore-travel{
+        margin: 32px 24px;
+    }
+    .explore-travel-desc h1{
+        font-size: 22px;
+    }
+
+    .explore-travel-desc p{
+        font-size: 14px;
+        margin: 20px 0;
+    }
+
+    .explore-travel-container-form{
+        gap: 16px;
+    }
+    .explore-input,.findNowImg{
+        /* width: 200px; */
+        height: 52px;
+    }
+    /* end explore travel */
 }

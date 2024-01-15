@@ -68,3 +68,84 @@
     color: var(--global-color);
 }
 
+/* End nav bar */
+
+/* start explore your travel */
+
+.explore-travel-container{
+    text-align: center;
+    margin: 50px 0;
+    background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("./Images/Group 13 (1) (1).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore-travel{
+    margin: 15%;
+}
+
+.explore-travel-desc h1{
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.explore-travel-desc p{
+    margin: 25px 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.explore-travel-container-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.30);
+    width: max-content;
+    margin: 0 auto;
+    gap: 25px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.explore-input, .findNowImg{
+    height: 52px;
+    width: 174px;
+    padding: 0 15px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.findNowImg{
+    background-color: var(--global-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.findNowImg>img{
+    background-color: var(--global-color);
+    margin-right: 10px;
+}
+/* End explore your travel */
