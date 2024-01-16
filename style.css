@@ -309,6 +309,12 @@ button{
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
 }
+
+.destination-country div:hover{
+    cursor: pointer;
+    box-shadow: 1px 10px 20px 1px black;
+    transition-duration: 0.5s;
+}
 /* End destination container */
 
 /* main end */
