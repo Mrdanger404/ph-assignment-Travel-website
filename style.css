@@ -157,6 +157,7 @@ button {
   -o-border-radius: 8px;
   outline: none;
   border: none;
+  box-sizing: border-box;
 }
 
 .findNowImg {
