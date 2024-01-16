@@ -521,4 +521,21 @@ button {
   }
 /* end deals and discount container */
 
+/* start perfect place */
+
+.popular-tour-container video{
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.perfect-place-list li{
+    font-weight: 700;
+    color: #131318;
+}
+
+/* end perfect place */
+
 /* main end */

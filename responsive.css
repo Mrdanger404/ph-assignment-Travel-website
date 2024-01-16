@@ -87,12 +87,24 @@
         height: 342px;
         margin: 25px 0;
     }
+
+    .popular-tour-heading{
+        font-size: 20px;
+    }
+
+    .popular-tour-pera, .popular-tour-list{
+        font-size: 14px;
+    }
     /* end popular tours */
 
     /* start destination container */
     .destination-country{
         display: flex;
         flex-direction: column;
+    }
+
+    .destination-country div{
+        font-size: 28px;
     }
     /* end destination container */
 
@@ -142,6 +154,11 @@
         margin-bottom: 10px;
     }
     /* end deals and pricing */
+
+    .popular-tour-container video{
+        height: 200px;
+        margin: 24px 0;
+    }
 
     /* end main */
 }
