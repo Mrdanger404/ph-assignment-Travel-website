@@ -538,4 +538,112 @@ button {
 
 /* end perfect place */
 
+/* start news letter container */
+.news-letter-container{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    
+}
+
+.news-letter-card{
+    width: 40%;
+    height: 422px;
+    border: 1px solid var(--global-color);
+    border-radius: 16px;
+    padding: 40px;
+    box-sizing: border-box;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.news-letter-card hr{
+    margin: 24px 0;
+    border: 1px solid rgba(19, 19, 24, 0.10);
+}
+
+.news-letter-heading h1{
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.news-letter-heading p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.news-letter-form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.news-letter-form input, .news-letter-submit{
+    height: 52px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    outline: none;
+    
+}
+
+.news-letter-form input{
+    padding-left: 20px;
+}
+
+.news-letter-submit{
+    color: #fff;
+}
+
+.offer-container{
+    height: 422px;
+    width: 60%;
+    background: url('./Images/Rectangle 8 (1).png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    position: relative;
+}
+
+.offer{
+    position: absolute;
+    color: #fff;
+    bottom: 40px;
+    right: 5px;
+    padding: 15px 25px;
+    border-radius: 16px;
+    text-align: center;
+    background-color: var(--global-color);
+    transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.offer h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.offer h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+/* end news letter container */
+
 /* main end */
