@@ -58,7 +58,7 @@
 
     .explore-travel-desc p{
         font-size: 14px;
-        margin: 20px 0;
+        margin: 15px 0;
     }
 
     .explore-travel-container-form{
@@ -145,7 +145,7 @@
         justify-content: end;
     }
     .pricing{
-        height: 70%;
+        height: 80%;
         width: 95%;
        margin: 16px;
        padding: 25px;
