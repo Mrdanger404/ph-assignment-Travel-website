@@ -125,5 +125,23 @@
     }
     /* end why choose us */
 
+    /* start deals and pricing */
+    .deals-card{
+        align-items: center;
+        justify-content: end;
+    }
+    .pricing{
+        height: 70%;
+        width: 95%;
+       margin: 16px;
+       padding: 25px;
+    }
+
+    .deals-card-pricing{
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    /* end deals and pricing */
+
     /* end main */
 }
