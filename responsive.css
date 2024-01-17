@@ -205,4 +205,16 @@
     }
 
     /* end footer */
+
+    /* start extra container */
+    .extra-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .extra-container div{
+        width: 100%;
+        
+    }
+    /* end extra container */
 }
