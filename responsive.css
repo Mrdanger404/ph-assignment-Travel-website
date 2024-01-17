@@ -216,5 +216,9 @@
         width: 100%;
         
     }
+
+    .extra-section-container h1{
+        font-size: 25px;
+    }
     /* end extra container */
 }
